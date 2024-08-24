@@ -1,0 +1,26 @@
+.Footer{
+    background-color: rgba(167, 190, 199, 0.753);
+}
+.mainfooter{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.mainfooter p{
+    text-align:left;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.mainfooter li{
+    text-align: left;
+    list-style-type: none;
+    padding: 0px 5px 5px 5px;
+}
+.hr{
+    font-size:20px;
+    height: 1.5px;
+    width:60px;
+    background-color: grey;
+    margin: 5px 0px 20px 0px;
+}

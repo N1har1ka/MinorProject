@@ -1,0 +1,31 @@
+.signupmain{
+    display: flex;
+   
+}
+.su1{
+    width: 250px;
+    text-align: center;
+    margin: 120px;
+}
+.su2{
+    background-color: #fff;
+    height: 595px;
+    width: 800px;
+}
+.su2 .formdiv{
+    margin-top: 100px;
+}
+.subtn{
+    all:unset;
+    width: 120px;
+    font-size: 15px;
+    padding: 5px;
+    border:1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(30, 25, 101);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}

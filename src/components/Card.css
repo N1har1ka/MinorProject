@@ -1,0 +1,18 @@
+.carddiv{
+    width: 200px;
+    border-radius:10px;
+    background-color: #3d7dae;
+    padding: 10px;
+    text-align: center;
+}
+.cardbtn{
+    all: unset;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+.carddiv a{
+    text-decoration: none;
+    color: black;
+}

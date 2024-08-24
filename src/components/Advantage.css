@@ -1,0 +1,29 @@
+.hiwdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hiwdivp{
+    font-size: 40px;
+    font-weight: 500;
+}
+.hiwcard{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.hiwcardh1{
+    font-size: 40px;
+}
+.hiwcardh2{
+    margin-top: -20px;
+}
+.hiwcardp{
+    margin-top: -5px;
+    text-align: center;
+}

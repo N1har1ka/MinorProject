@@ -1,0 +1,65 @@
+.mainnav{
+    margin-top: -15px;
+    height: 60px;
+}
+.navul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+.navul li a{
+    text-decoration: none;
+    color: black;
+}
+.ulli1{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    gap: 30px;
+}
+.ulli1 img{
+    margin-top: 5px;
+}
+.ulli1 p{
+    color: rgb(30, 25, 101);
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:0px;
+}
+.navdiv2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 40px;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.navdiv2 li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Optional: Set link color */
+}
+.navbtn{
+    all: unset;
+    border: 1px solid black;
+    background-color: white;
+    padding: 2px 8px 2px 8px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.navbtn:hover{
+    background-color:rgb(30, 25, 101);
+    color: white;
+    border-color: cadetblue;
+}
+hr{
+    height: 1px;
+    background-color: white; 
+    border: none;
+    font-size: 10px;
+
+}
+.header-hidden {
+    display: none;
+  }
