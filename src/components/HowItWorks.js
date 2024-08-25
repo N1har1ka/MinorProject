@@ -21,12 +21,12 @@ export default function HowItWorks() {
       <h2 className='hitp'>HOW IT WORKS? </h2>
       <div className='hitcard'>
       <Card title={"Client"} desc={"Are you seeing contractors or workers for your work. This is site is for you."}/>
-      <Card title={"Constructor"} desc={"Do you need workers for your team you can explore here or if you need a client."}/>
+      <Card title={"Contractor"} desc={"Do you need workers for your team you can explore here or if you need a client."}/>
       <Card title={"Worker"} desc={"If you want to earn money or searching for work so this website is for you."}/>
       </div>
       <div className='hitnav'>
         <button onClick={handleClientClick}><IoMdPerson/> For Client</button>
-        <button onClick={handleConstructorClick}><GrUserWorker/> For Constructor</button>
+        <button onClick={handleConstructorClick}><GrUserWorker/> For Contractor</button>
         <button onClick={handleWorkerClick}><GrUserWorker/> For Worker</button>
       </div>
       {selectedRole === 'client' && (<HowItWorksCard

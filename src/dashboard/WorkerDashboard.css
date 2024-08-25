@@ -1,0 +1,232 @@
+.worker-dashboard {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width:100vw;
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .dashboard-content {
+    display: flex;
+    flex-direction: row; /* Aligns items in a row */
+    gap: 30px;
+  }
+  .logo h1 {
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .nav-links button:hover {
+    color: #74ebd5;
+  }
+  
+  main {
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+  }
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2193c0;
+    padding: 0 20px;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .greeting {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .header-photo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .profile-section button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-section button:hover {
+    background-color: #2980b9;
+  }
+  .bids-section {
+    flex: 2;
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .profile-section {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .edit-photo {
+    display: block;
+    margin: 10px auto;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-photo:hover {
+    background-color: #2980b9;
+  }
+  
+  .profile-info {
+    margin-top: 20px;
+  }
+  
+  .profile-field {
+    margin-bottom: 15px;
+  }
+  
+  .profile-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-field input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .save-profile {
+    display: block;
+    margin-top: 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-profile:hover {
+    background-color: #1e8449;
+  }
+  .worker-dashboard {
+    padding: 20px;
+  }
+  
+  .jobs-section, .bids-section, .profile-section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
