@@ -10,6 +10,9 @@ import './App.css';
 import Card from './components/Card';
 import HowItWorks from './components/HowItWorks';
 import TC from './components/TC';
+import ClientDashboard from './dashboard/ClientDashboard';
+import ContractorDashboard from './dashboard/ContractorDashboard';
+import WorkerDashboard from './dashboard/WorkerDashboard';
 
 const App = () => {
   return (
@@ -31,6 +34,9 @@ const MainRoutes = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/tc" element={<TC />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/client-dashboard" element={<ClientDashboard/>} />
+        <Route path="/worker-dashboard" element={<WorkerDashboard/>} />
+        <Route path="/contractor-dashboard" element={<ContractorDashboard/>} />
         {/* <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/create-account" element={<AccountCreation />} />
         <Route path="/profile" element={<Profile />} /> */}

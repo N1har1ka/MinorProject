@@ -9,7 +9,8 @@ export default function Card(props) {
             <h3>{props.title}</h3>
             <hr />
             <p>{props.desc}</p>
-            <Link to="/signup"><button className='cardbtn'>Create Account</button></Link>
+            <Link to="/signup" state={{ title: props.title }}>
+              <button className='cardbtn'>Create Account</button></Link>
         </div>
     </div>  
     </>

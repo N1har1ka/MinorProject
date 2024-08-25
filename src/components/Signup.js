@@ -1,7 +1,27 @@
 import React from 'react'
+import { useLocation, useNavigate } from 'react-router-dom';
 import './Signup.css'
 import { Link } from 'react-router-dom'
 export default function Signup() {
+  const navigate = useNavigate();  // Use useNavigate instead of useHistory
+  const location = useLocation();
+  const { title } = location.state || {};
+  console.log('Title from state:', title);  // Add this in Signup component
+  const handleAccountCreation = () => {
+      if (title === 'Client') {
+          navigate('/client-dashboard');  // Use navigate() for navigation
+      } else if (title === 'Worker') {
+          navigate('/worker-dashboard');  // Use navigate() for navigation
+      } else if (title === 'Contractor') {
+          navigate('/contractor-dashboard');  // Use navigate() for navigation
+      } else {
+        console.error('Unknown role:', title);  // Debug unknown role
+      }
+  };
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    handleAccountCreation();
+};
   return (
     <div className='signupmain'>
       <div>
@@ -19,7 +39,7 @@ export default function Signup() {
       </div>
       <div className='su2'>
       <div className='formdiv'>
-      <form action="">
+      <form onSubmit={handleSubmit}>
         <p className='signin'>CREATE ACCOUNT</p> 
         <label htmlFor="email">Email</label><br />
         <input className='inputep' type="text" name="email" id="email" /> <br />
@@ -32,7 +52,7 @@ export default function Signup() {
           </div>
           <p>Forgot Password?</p>
         </div>
-        <button className='signbtn'>Sign Up</button>
+        <button type='submit' className='signbtn'>Sign Up</button>
       </form>
     </div>
       </div>

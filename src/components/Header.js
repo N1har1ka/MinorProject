@@ -9,7 +9,7 @@ const Header = () => {
     }    
     };
     const location = useLocation();
-    const isSignupPage = location.pathname === '/signup'||location.pathname==='/login';
+    const isSignupPage = location.pathname === '/signup'||location.pathname==='/login'||location.pathname==='/client-dashboard'||location.pathname==='/worker-dashboard'||location.pathname==='/constructor-dashboard';
   return (
     <>
       <nav className={`mainnav ${isSignupPage ? 'header-hidden' : ''}`}>

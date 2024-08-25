@@ -20,7 +20,7 @@ export default function HowItWorks() {
     <div className='hiwmain' id='hiw'>
       <h2 className='hitp'>HOW IT WORKS? </h2>
       <div className='hitcard'>
-      <Card title={"Client ?"} desc={"Are you seeing contractors or workers for your work. This is site is for you."}/>
+      <Card title={"Client"} desc={"Are you seeing contractors or workers for your work. This is site is for you."}/>
       <Card title={"Constructor"} desc={"Do you need workers for your team you can explore here or if you need a client."}/>
       <Card title={"Worker"} desc={"If you want to earn money or searching for work so this website is for you."}/>
       </div>
